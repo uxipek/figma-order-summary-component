@@ -1,0 +1,93 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "red hat display";
+}
+
+body{ 
+    background-color: aliceblue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;}
+
+.container{ 
+    max-width: 450px;
+    height: 632px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px rgba(13, 48, 189, 0.2);
+    text-align: center;
+    overflow: hidden;
+    margin:0
+    }
+
+.container img { 
+    width: 100%;
+    height:auto;
+    border-radius: 0px 0px 0px 0px;
+    display: block;
+
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    }
+
+.card h2 { 
+    max-width: 354px;
+    height: 37px;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 100%;
+    color: #1F2E55;
+    margin-inline: auto
+}
+
+.card p { 
+    max-width: 354px;
+    height: 78px;
+    font-size: 16px;
+    color: #717FA6;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0px;
+}
+.button h3 { 
+    width: 354px;
+    height: 54.3px;
+    background-color: #382AE1;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 11px;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    box-shadow: 0px 4px 4px 0px  rgba(0, 0, 0, 0.1);
+}   
+
+
+.button p { 
+    color: #717FA6;
+    font-size: 15px;
+    font-weight: 900;
+    justify-content: center;
+    margin-top:5px;
+}
